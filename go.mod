@@ -1,6 +1,6 @@
-module github.com/golangci/example-plugin-module-linter
+module github.com/iwahbe/golangci-lint-custom-version-bug-repro
 
-go 1.23.0
+go 1.25.0
 
 require (
 	github.com/golangci/plugin-module-register v0.1.1

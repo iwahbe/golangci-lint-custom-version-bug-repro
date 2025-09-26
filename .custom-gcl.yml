@@ -1,0 +1,8 @@
+version: v2.5.0
+plugins:
+  # a plugin from a Go proxy
+  - module: 'github.com/iwahbe/golangci-lint-custom-version-bug-repro'
+    path: .
+    import: 'github.com/iwahbe/golangci-lint-custom-version-bug-repro/plugin'
+destination: ./bin
+name: custom-golangci-lint

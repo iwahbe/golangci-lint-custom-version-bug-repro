@@ -1,4 +1,4 @@
-package linters
+package plugin
 
 import (
 	"path/filepath"
